@@ -1,0 +1,17 @@
+
+integers = input('').split()
+
+aa = int(integers[0]) - int(integers[1])
+
+bb = int(integers[0]) - int(integers[2])
+
+a =  aa * int(integers[2]) * 4
+
+b = int(integers[1]) * int(integers[2]) * 4
+
+c = bb * aa * 4
+
+d = int(integers[1]) * bb * 4
+
+largest = max(a, b, c, d)
+print(largest)
