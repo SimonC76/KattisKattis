@@ -1,0 +1,18 @@
+
+flights = int(input(''))
+all = []
+
+for x in range(flights):
+    price = float(input(''))
+    all.append(price)
+
+discount = max(all)
+
+actual = min(all)
+
+result = actual - discount / 2
+
+if int(result) > 0:
+    print(int(result))
+else:
+    print(0)
