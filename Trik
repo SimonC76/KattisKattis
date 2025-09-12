@@ -1,0 +1,21 @@
+
+move = input('')
+
+pos = [1 , 2, 3]
+
+for x in move:
+    if x == 'A':
+        pos[0] , pos[1] = pos[1] , pos[0]
+
+    elif x == 'B':
+        pos[1] , pos[2] = pos[2] , pos[1]
+
+    elif x == 'C':
+        pos[0] , pos[2] = pos[2] , pos[0]
+
+if pos[0] == 1:
+    print(1)
+elif pos[1] == 1:
+    print(2)
+else:
+    print(3)
