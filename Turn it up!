@@ -1,0 +1,20 @@
+
+rap = int(input(''))
+
+vol = 7
+
+i = 1
+
+while i <= rap:
+
+    ud = input('')
+
+    if ud == 'Skru ned!' and vol != 0:
+        vol -= 1
+
+    elif ud == 'Skru op!' and vol != 10:
+        vol += 1
+
+    i += 1
+
+print(vol)
