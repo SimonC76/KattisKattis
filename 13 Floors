@@ -1,0 +1,8 @@
+
+floor = int(input(" "))
+
+if floor >= 13:
+    fake = floor + 1
+    print(fake)
+else:
+    print(floor)
