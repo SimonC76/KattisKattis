@@ -1,0 +1,4 @@
+
+corn = (input(''))
+
+print(corn.count('1'))
