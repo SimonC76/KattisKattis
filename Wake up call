@@ -1,0 +1,23 @@
+x = input('')
+
+number_1 = input('').split()
+
+total = sum(int(num) for num in number_1)
+
+number_2 = input('').split()
+
+total_2 = sum(int(num) for num in number_2)
+
+
+
+if total == total_2:
+    print('Oh no')
+
+elif total > total_2:
+    print('Button 1')
+
+elif total_2 > total:
+    print('Button 2')
+
+
+
