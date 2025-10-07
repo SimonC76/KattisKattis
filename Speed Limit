@@ -1,0 +1,26 @@
+
+
+while True:
+    a = int(input())
+    if a == -1:
+        break
+
+    x1 = []
+    y1 = []
+
+    for _ in range(a):
+        x, y  = map(int, input().split())
+        x1.append(x)
+        y1.append(y)
+
+    total = 0
+    for i in range(a):
+
+        if i == 0:
+            total += x1[i] * y1[i]
+        else:
+            total += x1[i] * (y1[i] - y1[i - 1])
+
+    print(total, 'miles')
+
+
