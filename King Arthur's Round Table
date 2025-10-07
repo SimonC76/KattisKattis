@@ -1,0 +1,15 @@
+import math
+
+d = float(input())
+w = float(input())
+n = float(input())
+
+circum = math.pi * d
+
+fit = circum / w
+
+if fit > n:
+    print('YES')
+else:
+    print('NO')
+
