@@ -1,0 +1,9 @@
+x = input()
+
+y = input()
+
+
+if x.count('a') >= y.count('a'):
+    print('go')
+
+else: print('no')
