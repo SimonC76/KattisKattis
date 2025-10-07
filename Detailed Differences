@@ -1,0 +1,22 @@
+x = int(input())
+
+for _ in range(x):
+    y = input()
+    z = input()
+    print(y)
+    print(z)
+    for i in range(len(y)):
+
+            if y[i] == z[i]:
+
+                print('.', end='')
+
+            else:
+                print('*', end='')
+
+    print()
+    print()
+
+
+
+
